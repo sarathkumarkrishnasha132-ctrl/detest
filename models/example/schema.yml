@@ -1,2 +1,9 @@
 version: 2
 
+sources:
+  - name: nex
+    database: SOOPER
+    schema: RAW
+
+    tables:
+      - name: datatable
