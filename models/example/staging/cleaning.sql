@@ -11,4 +11,4 @@ select
     freight_cost,
     weight_kg
 
-from {{ source('RAW', 'datatable') }}
+from {{ source('nex', 'datatable') }}
